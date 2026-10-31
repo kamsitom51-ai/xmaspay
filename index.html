@@ -1,30 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>XmasPay - Send Love This Christmas</title>
+<title>XmasPay V19 Free Slot</title>
 <style>
-body{font-family:Arial,sans-serif;background:#b71c1c;color:white;text-align:center;padding:20px;margin:0}
-.box{background:white;color:#333;max-width:400px;margin:20px auto;padding:25px;border-radius:15px}
-h1{font-size:28px}
-.btn{background:#b71c1c;color:white;padding:14px 25px;border:none;border-radius:8px;font-size:18px;width:100%;cursor:pointer}
-input{width:90%;padding:12px;margin:8px 0;border-radius:8px;border:1px solid #ccc}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{background:#041a12;color:white}
+.btn{width:100%;padding:14px;margin:7px 0;border-radius:12px;font-size:13px;font-weight:800;border:none;cursor:pointer}
+.card{background:white;color:#111;padding:12px;border-radius:14px;margin:8px 0}
+input,select{width:100%;padding:12px;margin:6px 0;border-radius:10px;border:2px solid #ddd}
+.free-box{background:linear-gradient(135deg,gold,#ff9800);border:3px solid white;border-radius:16px;padding:16px;color:black;text-align:center;margin:10px 0}
 </style>
 </head>
 <body>
-<h1>🎄 XmasPay 🎅</h1>
-<p>Send Christmas Gifts & Cash With Love</p>
-
-<div class="box">
-<h2>Send Xmas Gift</h2>
-<input type="text" placeholder="Receiver Name">
-<input type="number" placeholder="Amount ₦">
-<input type="text" placeholder="Christmas Message">
-<button class="btn" onclick="alert('Merry Christmas! Gift Sent Successfully 🎄')">Send Gift 🎁</button>
-<p style="margin-top:15px;font-size:14px;color:green">✅ Site is Live!</p>
-</div>
-
-<p>© 2025 XmasPay</p>
-</body>
-</html>
+<div id="annBar"></div>
+<div id="app"></div>
+<script>
+let DEVICE_ID=localStorage.getItem('XPAY_DEVICE_ID');if(!DEVICE_ID){DEVICE_ID='DEV-'+Date.now();localStorage.setItem('XPAY_DEVICE_ID',DEVICE_ID);}
+let DB=JSON.parse(localStorage.getItem('XPAY_V19')||'{}');
+let EXCHANGE_RATE=JSON.parse(localStorage.getItem('XPAY_RATE')||'1600');
+let MIN_WD_NGN=JSON.parse(localStorage.getItem('XPAY_MIN_NGN')||'3000');
+let MIN_WD_USD=JSON.parse(localStorage.getItem('XPAY_MIN_USD')||'5');
+let CASINO_HISTORY=JSON.parse(localStorage.getItem('XPAY_CASINO')||'[]');
+if(!DB['kamsitom51@gmail.com']){DB['kamsitom51@gmail.com']={name:'CEO Kamsi',pw:'82246434',code:'XPAY-CEO01',avail:5000,refbal:2000,taskbal:1000,availUSD:50,refbalUSD:20,taskbalUSD:10,refs:[],freeSpins:10,joined:Date.now(),bank:{name:'Access Bank',number:'0123456789',holder:'KAMSI CEO'},bankUSD:{method:'PayPal',email:'kamsitom51@gmail.com',holder:'K
